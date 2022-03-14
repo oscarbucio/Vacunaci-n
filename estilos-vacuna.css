@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+    font-weight: bold;
+
+}
+        body{
+            background: linear-gradient(to right, white 50%, rgba(178,220,245,.5) 60%);
+        }
+
+        footer {
+            padding: 10px;
+            text-align: left;
+            position: relative;
+            margin-top: 10px;
+        }
+
+        .negritas{
+            text-align: left;
+            color: midnightblue;
+            font-size: xx-large;
+            font-weight: bold;
+        }
+
+        .negritasbody{
+            text-align: center;
+            color: midnightblue;
+            font-size: 75px;
+            font-weight: bold;
+        }
+
+        .fondoCompleto{
+            background-image: url("https://github.com/oscarbucio/Vacunaci-n/blob/main/Marcas%20Vacuna.png?raw=true");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        nav {
+            float: left;
+            width: 50%;
+            height: 430px;
+            background: transparent;
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+
+        article {
+            float: right;
+            width: 50%;
+            height: 430px;
+            background: #fffbfb02;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        @media (max-width: 800px) {
+            nav, article {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+.boton1 {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    white-space: nowrap;
+    background: #2F4DC4;
+    border:none;
+    cursor: pointer;
+    height: 100%;
+    border-radius: 20%;
+}
+
+.boton2 {
+    font-size: 16px;
+    position: relative;
+    white-space: nowrap;
+    background: transparent;
+    border:none;
+    cursor: pointer;
+    height: 20%;
+    border-radius: 20%;
+}
+.contenedor{
+    position: right;
+    margin-left: 0px;
+    margin-top: -40px;
+    text-align: right;
+    float: right;
+    width: 60%;
+    display: flex;
+  	}
+
+    .contenedor2{
+        position: right;
+        margin-left: 0px;
+        margin-top: 0px;
+        text-align: right;
+        float: right;
+        width: 100%;
+        display: flex;
+        margin: -30px;
+  	}
+
+      .contenedor3{
+        position: center;
+        margin-left: 0px;
+        margin-top: 0px;
+        text-align: center;
+        float: center;
+        width: 150%;
+        height: 150%;
+        display: contents;
+        margin: -30px;
+  	}
+
+.margin{
+    flex-wrap: wrap;
+    overflow: hidden;
+    display: flex;
+}
+
+.margin2{
+    flex-wrap: nowrap;
+    overflow: hidden;
+    display: flex;
+}
+.margin3{
+    flex-wrap: nowrap;
+    overflow: visible;
+    display: contents;
+}
+
+div{
+    margin: 30px;
+
+}
+
+.fondoCompletonav{
+    background-image: url("https://github.com/oscarbucio/Vacunaci-n/blob/main/Vacuna1.png?raw=true");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
